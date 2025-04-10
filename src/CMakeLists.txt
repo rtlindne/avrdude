@@ -163,6 +163,8 @@ set(SOURCES
     ${CMAKE_CURRENT_BINARY_DIR}/ac_cfg.h
     arduino.h
     arduino.c
+    alamode.h
+    alamode.c
     avr.c
     avr910.c
     avr910.h

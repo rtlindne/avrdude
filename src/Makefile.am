@@ -90,6 +90,8 @@ libavrdude_la_SOURCES = \
 	lexer.l \
 	arduino.h \
 	arduino.c \
+	alamode.h \
+	alamode.c \
 	avr.c \
 	avr910.c \
 	avr910.h \

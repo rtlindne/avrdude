@@ -27,6 +27,7 @@
 #include "libavrdude.h"
 
 #include "arduino.h"
+#include "alamode.h"
 #include "avr910.h"
 #include "avrftdi.h"
 #include "buspirate.h"
@@ -61,6 +62,7 @@
 
 const PROGRAMMER_TYPE programmers_types[] = {   // Name(s) the programmers call themselves
   {"arduino", arduino_initpgm, arduino_desc},   // "Arduino"
+  {"alamode", alamode_initpgm, alamode_desc},   // "Alamode"
   {"avr910", avr910_initpgm, avr910_desc},      // "avr910"
   {"avrftdi", avrftdi_initpgm, avrftdi_desc},   // "avrftdi"
   {"avrftdi_jtag", avrftdi_jtag_initpgm, avrftdi_jtag_desc},    // "avrftdi_jtag"

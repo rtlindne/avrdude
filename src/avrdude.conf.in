@@ -954,6 +954,20 @@ programmer # arduino
 ;
 
 #------------------------------------------------------------
+# alamode
+#------------------------------------------------------------
+
+# Custom board Alamode by SeedStudio
+
+programmer # alamode
+    id                     = "alamode";
+    desc                   = "Alamode by SeedStudio";
+    type                   = "alamode";
+    prog_modes             = PM_SPM;
+    connection_type        = serial;
+;
+
+#------------------------------------------------------------
 # urclock
 #------------------------------------------------------------
 
